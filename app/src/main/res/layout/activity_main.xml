@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimaryDark"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="4">
+
+            <ImageButton
+                android:id="@+id/tile0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+
+            <ImageButton
+                android:id="@+id/tile2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+
+            <ImageButton
+                android:id="@+id/tile3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="4">
+
+            <ImageButton
+                android:id="@+id/tile4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="4">
+
+            <ImageButton
+                android:id="@+id/tile8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:onClick="tile_Click"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:onClick="tile_Click"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:onClick="tile_Click"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+
+            <ImageButton
+                android:id="@+id/tile11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:onClick="tile_Click"
+                android:visibility="visible"
+                app:srcCompat="@drawable/blacksquare" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="4">
+
+            <ImageButton
+                android:id="@+id/tile12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+
+            <ImageButton
+                android:id="@+id/tile13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+
+            <ImageButton
+                android:id="@+id/tile14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+
+            <ImageButton
+                android:id="@+id/tile15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:srcCompat="@drawable/whitesquare" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
